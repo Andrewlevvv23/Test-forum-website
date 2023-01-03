@@ -1,0 +1,233 @@
+@import '../mobile_media.css';
+
+.page {
+	margin: 0 auto;
+	width: 75em;
+}
+.container_info {
+	position: relative;
+	width: 800px;
+	min-height: 1830px;
+	background-color: azure;
+}
+.header_info {
+	display: grid;
+	grid-template-columns: 475px 160px 160px;
+}
+.title_Info {
+	margin: 10px 0px 0 20px;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 0.5px;
+	color: #3A4562;
+}
+.save, .share  {
+	display: flex;
+	justify-content: flex-start;
+	width: 150px;
+	height: 32px;
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -0.6px;
+	color: #3A4562;
+	cursor: pointer;
+}
+.save:hover, .share:hover {
+	font-size: 19px;
+}
+.icon {
+	height: 30px;
+	margin-right: 8px;
+	margin-top: -3px;
+}
+.exit {
+	position: absolute;
+	margin-left: 20px;
+	width: 213px;
+	height: 50px;
+	background: #dadfeb;
+	border: none; 
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 13px;
+	padding-left: 25px;
+	color: #3A4562;
+}
+.btnExit {
+	margin-top: 90px;
+}
+#btnArrow {
+	position: absolute;
+	margin: 16px 32px;
+}
+.exit:hover {
+	box-shadow:  2px 2px 6px  rgb(137, 171, 202);
+}
+.divider_info, .divider_title, .divider_additional {
+	margin-left: 20px;
+	width: 695px;
+	height: 1px;
+	background-color: #c0c8da;
+}
+.btnApply {
+	margin: 38px 0 0 20px;
+	width: 130px; height: 50px;
+	background: #384564;
+	border-radius: 8px; border: none; 
+	font-weight: 200;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.btnApply:hover {
+	box-shadow:  3px 3px 6px  rgb(137, 171, 202);
+}
+.hospital_info_blocks {
+	padding: 30px 50px 0 20px;
+	display: grid;
+	grid-template-columns: 480px 160px;
+	gap: 60px;
+}
+.hospital_name {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: -0.75px;
+	color: #3A4562;
+}
+.hospital_post_date {
+	margin-top: 7px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.5625px;
+	color: rgba(56, 65, 93, 0.355988);
+	font-stretch: 100;
+}
+.hospital_price {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.625px;
+	color: #3A4562;
+}
+.hospital_price_descr {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.5625px;
+	color: #3A4562;
+	font-stretch: 100;
+}
+.hospital_info_descr, .response_descr, .benefits_descr, .employment_descr, .add_benefits_descr {
+	margin: 8px 60px 0 20px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.5625px;
+	color: #3A4562;
+	font-stretch: 100;
+}
+.respons_title, .benefits_title, .additional_title {
+	margin: 40px 0 7px 20px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.625px;
+	color: #3A4562;
+}
+ul {
+	margin: 2px 0 0 -5px;
+	color: #3A4562;
+	font-size: 18px;
+	line-height: 24px;
+	list-style-type: none;
+}
+li::before {
+    content: "❤  "; 
+    color:#636c82;
+}
+.additional_title, .cards_title {
+	margin-top: 70px;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 34px;
+	color: #3A4562;
+}
+.btn_blue, .btn_yellow {
+	width: 220px;
+	height: 50px;
+	background: rgba(161, 177, 219, 0.317343);
+	border: 1px solid rgba(85, 105, 158, 0.3);
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	color: #55699E;
+}
+.btn_yellow {
+	background: rgba(255, 207, 0, 0.15);
+	border: 1px solid #FFCF00;
+	color: #988B49;
+}
+.additional_btn {
+	margin: 10px 0 10px 15px;
+}
+.divider_additional {
+	margin: 10px 0 15px 20px ;
+}
+.attached_images {
+	display: flex;
+	margin: 22px 0 0 20px;
+	gap: 12px;
+}
+.image {
+	border-radius: 9px;
+}
+.cards {
+	position: relative;
+	margin: -1750px 0 0 810px;
+	border: #55699E 2px;
+}
+.cards_info {
+	position: absolute;
+	background-color:rgba(30, 27, 66, 0.7);
+	width: 380px;
+	height: 210px;
+	border-radius: 10px;
+	z-index: 2;
+}
+.cards_info_local {
+	display: flex;
+	justify-content: space-between;
+	width: 265px;
+}
+.cards_info_title {
+	margin: 30px 60px 0 60px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.625px;
+	color: #E7EAF0;
+}
+.cards_info_local, .cards_info_descr, .cards_info_contact {
+	margin: 5px 60px 0 60px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.5625px;
+	color: #E8EBF3;
+	font-stretch: 100;
+}
+.cards_map {
+	position: absolute;
+	margin-top: 0px;
+	z-index: 0;
+	box-shadow:  2px 2px 6px  rgb(137, 171, 202);
+}
+.cards_title, .divider_cards {
+	margin: 10px 0 0 -160px;
+	display: none;
+}
+
+@import '../mobile_media.css';

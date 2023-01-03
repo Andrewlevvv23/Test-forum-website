@@ -1,0 +1,67 @@
+
+.container__pagination {
+	position: relative;
+	margin: 0 auto;
+	width: 515px;
+	height: 50px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08);
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.divider {
+	width: 1.3px;
+	height: 32px;
+	background-color: #dce0e9;
+}
+.Shape {
+	margin-top: 5px;
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+.number {
+	font-weight: 700;
+	font-size: 20.8px;
+	line-height: 25px;
+	display: flex;
+	margin-top: 5px;
+	letter-spacing: 1.73333px;
+	color: #70778B;
+}
+.number span {
+	height: 33px;
+	width: 33px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+@import '../mobile_media.css';
+.selectedPage {
+	color: #5876C5;
+}
+
+.container__pagination button {
+	border: none;
+	appearance: none;
+}
+
+ button {
+	font-size: 20px;
+	background: none;
+	margin: 0 5px 0 5px;
+	font-weight: 600;
+	color:  #70778B;
+	cursor: pointer;
+}
+
+.active {
+	color: #5876C5;
+	font-weight: 600;
+	font-size: 21px;
+	background: none;
+}

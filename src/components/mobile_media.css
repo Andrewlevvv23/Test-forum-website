@@ -1,0 +1,374 @@
+@media (max-width: 1460px) {
+	.container {
+		grid-template-columns: 130px 645px 150px 180px;
+		width: 1100px
+	}
+		h1 {
+		width: 615px;
+		font-size: 19px;
+		line-height: 22px;
+		margin-bottom: 17px;
+	}
+}
+
+@media (max-width: 1255px) { 
+	.container {
+		grid-template-columns: 120px 480px 129px 170px;
+		width: 900px
+	}
+	.stars {
+		margin: 45px 25px;
+	}
+	h1 {
+		width: 615px;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 17px;
+	}
+	body .page {
+		width: 800px;
+	}
+	.page  .container_info {
+		min-height: 2330px;
+	}
+	.page .cards {
+		margin: 140px 0 0 196px;
+	}
+	.cards .cards_title, .cards .divider_cards {
+		display: block;
+	}
+	.cards .cards_title {
+		margin-top: -100px;
+	}
+	.cards .cards_map, .cards .cards_info {
+		margin-top: 30px;
+	}
+	.btnExit .exit {
+		margin-top: 500px;
+	}
+	.btnExit #btnArrow {
+		margin-top: 516px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		grid-template-columns: 130px 500px;
+		width: 700px;
+	}
+	h1 {
+		margin-top: 38px;
+		width: 560px;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 17px;
+	}
+	.bookmark {
+		display: none;
+	}
+	.stars {
+		position: absolute;
+		width: 70px;
+		height: 15px;
+		margin: -74px 65px;
+	}
+	.descr p {
+		position: absolute;
+		font-size: 16px;
+		width: 190px;
+		margin: -154px 415px;
+	}
+	.location {
+		margin-top: -30px;
+	}
+	.images {
+		margin: 17px 0 0 10px;
+	}
+	body .page {
+		width: 700px;
+	}
+	.page  .container_info {
+		width: 700px;
+		height: 2450px;
+	}
+	.page .header_info {
+		grid-template-columns: 440px 160px 160px;
+	}
+	.page .divider_info,.page .divider_title,.page .divider_additional {
+		width: 660px;
+	}
+	.page .hospital_info_blocks {
+		gap: 22px;
+	}
+	.page .btn_blue, .page .btn_yellow {
+		width: 200px;
+	}
+	.page .cards {
+		margin: 170px 0 0 150px;
+	}
+	.main_container .window {
+		width: 454px; 
+	}
+	.attached .main_container  {
+		align-items: center;
+		justify-content: center;
+		margin: 26px 0 0 -8px;
+	}
+	.cards .cards_title, .cards .divider_cards {
+		margin-left: -124px;
+	}
+	.btnExit .exit {
+		margin-top: 520px;
+	}
+	.btnExit #btnArrow {
+		margin-top: 536px;
+	}
+}
+
+@media (max-width: 768px) { 
+  .container {
+		grid-template-columns: 130px 500px;
+		width: 500px;
+	}
+	h1 {
+		margin-top: 38px;
+		width: 350px;
+		height: 42px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		-ms-line-clamp: 2;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		display: -webkit-box;
+		display: box;
+		word-wrap: break-word;
+		-webkit-box-orient: vertical;
+		box-orient: vertical;
+	}
+	.stars {
+		position: absolute;
+		width: 54px;
+		height: 10px;
+		margin: -72px 65px;
+	}
+	.descr p {
+		margin: -150px 230px;
+		font-size: 14px;
+	}
+	.content .descr {
+		margin-top: -10px;
+		font-size: 14px;
+		width: 300px;
+		line-height: 20px;
+	}
+	.content .location {
+		width: 200px;
+	}
+	.container__pagination { 
+		width: 380px;
+		height: 44px;
+	}
+	body .page {
+		width: 500px;
+	}
+	.page  .container_info {
+		width: 500px;
+		height: 2790px;
+	}
+	.page .header_info {
+		grid-template-columns: 245px 160px 160px;
+	}
+	.page .divider_info,.page .divider_title,.page .divider_additional {
+		width: 465px;
+	}
+	.page .hospital_info_blocks {
+		grid-template-columns: 1fr;
+	}
+	.page .btn_blue {
+		width: 140px;
+	}
+	.page .cards {
+		margin: 170px 0 0 50px;
+	}
+	.attached .main_container  {
+		margin-left: -104px;
+	}
+	.cards .cards_title, .cards .divider_cards {
+		margin-left: -32px;
+	}
+	.btnExit .exit {
+		margin-top: 530px;
+	}
+	.btnExit #btnArrow {
+		margin-top: 546px;
+	}
+}
+
+@media (max-width: 576px) { 
+	body {
+		margin: 0px;
+		padding: 0px;
+		min-width: 386px;
+	}
+	.App .postList{
+		padding: 10px 0 10px 0;
+		margin: 0;
+	}
+ 	.container {
+		grid-template-columns: 90px 40px;
+		width: 386px;
+	}
+	.images {
+		width: 65px;
+		height: 65px;
+		margin: 20px 0 0 5px;
+	}
+	.bookmark .descr p {
+		width: 50px;
+	}
+	h1 {
+		width: 250px;
+	}
+	.descr p {
+		margin: -150px 0 0 170px;
+		font-size: 14px;
+		width: 120px;
+	}
+	.location {
+		display: grid;
+		grid-template-columns: 20px 110px;
+		font-size: 15px;
+		margin-top: -25px;
+	}
+	.location img {
+		margin-top: 17px;
+	}
+	.content .descr {
+		width: 260px;
+	}
+	.stars {
+		margin-left: 46px;
+	}
+	.container_info_descr {
+		width: 350px;
+	}
+
+	body .page  {
+		width: 394px;
+		padding: 0;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: center;
+		overflow-x: hidden;
+	}
+	#root {
+		padding: 0;
+	}
+	.page  .container_info {
+		width: 394px;
+		height: 2920px;
+		margin-right: -200px;
+	}
+	.page .header_info {
+		grid-template:  50px 50px /  180px 180px; 
+		width: 390px;
+	}
+	.page .divider_info {
+		position: absolute;
+		margin-top: 46px;
+		width: 362px;
+	}
+	.page .save  {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		margin-left: 15px;
+	}
+	.page .share  {
+		grid-column-start: 2;
+		grid-column-end: 2;
+		grid-row-start: 2;
+	}
+	.page .btnApply_media {
+		display: none;
+	}
+	.page .hospital_name {
+		margin: -5px -18px 10px 0;
+	}
+	.page .hospital_post_date {
+		font-size: 13px;
+	}
+	.page .hospital_block_right {
+		position: absolute;
+		margin: 200px 0 0 165px;
+	}
+	.page .hospital_price_descr {
+		margin: -48px 0 0 56px;
+		font-size: 16px;
+		color: rgba(107, 107, 107, 0.704);
+	}
+	.page .hospital_info_descr {
+		margin-top: 36px;
+		margin-right: 10px;
+	}
+	.page .response_descr {
+		margin-right: 15px;
+	}
+	.page .btnApply {
+		margin-left: 134px;
+	}
+	.page .media_id1 {
+		display: grid;
+		grid-template: 60px / 120px 120px 120px;
+	}
+	.page .btn_blue {
+		width: 110px;
+		font-size: 15px;
+	}
+	.page .media_id2 {
+		display: grid;
+		grid-template: 60px / 170px 170px;
+		grid-column-gap: 10px;
+	}
+	.page .btn_yellow {
+		width: 170px;
+		font-size: 15px;
+	}
+	.page .main_container {
+		margin-left: -156px;
+		margin-bottom: -110px;
+	}
+	.main_container .window {
+		width: 225px; 
+	}
+	.page .divider_additional {
+		width: 355px;
+	}
+	.page .cards_title, .page .divider_cards  {
+		margin: 10px 0 0 12px;
+	}
+	.page .cards {
+		margin-left: 6px;
+		width: 300px;
+	}
+	.page .btnExit {
+		position: absolute;
+		margin-top: 190px;
+	}
+	.page .modal_page {
+		width: 380px;
+		height: 290px;
+	}
+	.page .modal_page .message {
+		margin-left: 40px;
+		width: 380px;
+		font-size: 16px;
+	}
+	.page .modal_page input, .page .modal_page .btn_modal  {
+		max-width: 338px;
+	}
+	.page .modal_page .btn_modal  {
+		max-width: 343px;
+	}
+}
+
